@@ -1,0 +1,41 @@
+.botText {
+  font-size: 20px;
+  color: grey;
+  height: 70px;
+}
+.botInfo {
+  height: 140px;
+}
+.botBut button {
+  background: rgb(8, 179, 8);
+  border: 2px solid rgb(8, 179, 8);
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botBut button:active {
+  background-color: inherit;
+  color: rgb(8, 179, 8);
+}
+.botBut button:disabled {
+  background-color: rgba(8, 179, 8, 0.564);
+  color: #fff;
+  border: 2px solid rgba(8, 179, 8, 0.564);
+  cursor: default;
+}
+
+.botBut {
+  padding-left: 10px;
+}
+
+.delMess {
+  color: red;
+  cursor: pointer;
+}
+
+.delMess:hover {
+  text-decoration: underline;
+}
