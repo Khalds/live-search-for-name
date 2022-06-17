@@ -1,0 +1,80 @@
+.card {
+  position: relative;
+  width: 400px;
+  box-shadow: 2px 2px 10px grey;
+  margin: 40px 20px;
+}
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(192, 190, 190);
+}
+
+.cardInfo {
+  padding: 20px;
+}
+
+.cardImg img {
+  height: 400px;
+  width: 100%;
+  position: center;
+}
+.cardDetailBut {
+  display: flex;
+  align-items: center;
+}
+.cardDetailBut button {
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(0, 94, 245);
+  border: 2px solid rgb(0, 94, 245);
+  border-radius: 5px;
+}
+
+.cardDetailBut button:active {
+  color: #fff;
+  background-color: rgb(0, 94, 245);
+}
+
+.cardName p {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.infoText {
+  background: #fbfbfc;
+  color: #000;
+  position: absolute;
+  right: -355px;
+  width: 320px;
+  z-index: 10;
+  padding: 30px;
+  font-size: 20px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.infoText span {
+  position: absolute;
+  bottom: 75%;
+  left: 95%;
+  font-size: 16px;
+  color: Red;
+  cursor: pointer;
+}
+
+.inputBlock {
+  width: 50%;
+  display: flex;
+  margin: 50px auto;
+}
+.inputBlock input {
+  flex: 1;
+  border: 3px solid blue;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 16px;
+  padding: 15px 30px;
+  outline-color: blue
+}
